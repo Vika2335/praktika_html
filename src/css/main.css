@@ -3,18 +3,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Kelly Slab', sans-serif;
 }
+
 body {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
+
 .header {
     background-color: #DCE5EA;
     color: rgb(0, 0, 0);
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-family: 'Kelly Slab', sans-serif;
 } 
 
@@ -22,11 +25,20 @@ body {
     height: 80px;
 }
 
-.header_logo {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header h2 {
     margin: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 18px;
+}
+
+.store {
+    margin: 20px;
+}
+
+.storeSelector {
+    padding: 5px;
+    font-size: 20px;
 }

@@ -1,14 +1,12 @@
 import React from "react"
 import Header from "./components/Header"
-import logo from "./img/logo.png"
+import Main_page from "./components/Main_page"
 
 class App extends React.Component {
   render(){
     return (<div className = "name">
-      <div className="header_logo">
-        <img className="image" src={logo}/>
-        <Header /> 
-      </div> 
+      <Header /> 
+      <Main_page />
     </div>)
   }
 }
